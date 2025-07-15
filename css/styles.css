@@ -1,31 +1,74 @@
-body{font-family:  "Palatino",serif;}
-.Kirish{
-  text-align: center;
-  background-color: darkturquoise;
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Kirish {
+  background-color: aquamarine;
   color: black;
-  font-size: 25px;
-  font-style:normal;
-  font-weight: 250;
+  text-align: center;
 }
 
 .menu-table {
-  text-align: center;
-  background-color: rgba(214, 173, 143, 0.733);
+  background-color: rgba(214, 213, 208, 0.918);
+  text-decoration: none;
+  list-style: none;
+  word-spacing: 25px;
   color: black;
-  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
   text-align: center;
-  word-spacing: 15px;
 }
 
-a {
+.menu-table a {
+  font-size: 18px;
+  font-weight: bold;
   text-decoration: none;
   color: black;
-  text-align: center;
-  list-style: none;
- }
-ul li{font-family: "Palatino",serif;
-  text-decoration: none;
-  color:black;
-  text-align:left;
-  list-style: none}
-li a{color:rgb(7, 7, 158)}
+  width: 200px;
+}
+
+/* Hover */
+.telefon:hover,
+.televizor:hover,
+.Muzlatgich:hover,
+.konditsoner:hover,
+.Kirmoshina:hover {
+  background-color: #8a8a8a;
+}
+
+/* Active */
+.telefon:active,
+.televizor:active,
+.Muzlatgich:active,
+.konditsoner:active,
+.Kirmoshina:active {
+  background-color: #a88383ec;
+}
+
+/* Focus */
+.telefon:focus,
+.televizor:focus,
+.Muzlatgich:focus,
+.konditsoner:focus,
+.Kirmoshina:focus {
+  background-color: rgba(177, 173, 173, 0.822);
+}
+
+/* Box dizayni */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 200px;
+  font-size: 24px;
+  background-color: lightskyblue;
+  transition:font-size 1.4s ease,
+   background-color 1.4s ease,
+   color 1.4s ease;
+}
+
+.box:hover {
+  font-size: 48px;
+  background-color: rgb(228, 84, 84);
+}

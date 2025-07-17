@@ -1,16 +1,23 @@
-body {
+.umumiy{background-color: blanchedalmond;}
+body {border-color: lightseagreen;
   font-family: 'Times New Roman', Times, serif;
 }
 
 .Kirish {
-  background-color: aquamarine;
-  color: black;
+  background-color: rgb(118, 141, 133);
+   color: black;
   text-align: center;
 }
+.photo-1{background-color:rgb(255, 255, 255);
+   width: 100px;
+   height: 500px;
+   text-align: center;
+
+  }
 
 .menu-table {
   background-color: rgba(214, 213, 208, 0.918);
-  text-decoration: none;
+    text-decoration: none;
   list-style: none;
   word-spacing: 25px;
   color: black;
@@ -56,6 +63,9 @@ body {
 
 /* Box dizayni */
 .box {
+  border: 5px;
+  border-color:orange ;
+  border-style: dashed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,3 +82,8 @@ body {
   font-size: 48px;
   background-color: rgb(228, 84, 84);
 }
+*:focus{
+outline-color: orangered;
+outline-offset: 3px;
+outline-width: 2px;
+outline-style:dotted;}
